@@ -8,8 +8,4 @@ public class Area {
 		this.width = w;
 		this.height = h;
 	}
-	
-	/**
-	 * 坐标是否在区域内
-	 */
 }
