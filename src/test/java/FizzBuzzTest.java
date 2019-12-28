@@ -8,7 +8,7 @@ public class FizzBuzzTest {
 
 	@Test
 	public void returnFizzBy3() {
-		int number = 5;
+		int number = 3;
 		String result = FizzBuzz.of(number);
 		assertThat(result).isEqualTo("Fizz");
 	}
