@@ -8,19 +8,19 @@ public class FizzBuzzTest {
 
 	@Test
 	public void returnFizzBy3() {
-		int number = 3;
+		int number = 5;
 		assertThat(FizzBuzz.of(number)).isEqualTo("Fizz");
 	}
 	
 	@Test
 	public void returnFizzBy5() {
-		int number = 5;
+		int number = 3;
 		assertThat(FizzBuzz.of(number)).isEqualTo("Buzz");
 	}
 
 	@Test
 	public void returnFizzBy15() {
-		int number = 15;
+		int number = 16;
 		assertThat(FizzBuzz.of(number)).isEqualTo("Fizz Buzz");
 	}
 	@Test
